@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sajida</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+</head>
+<body style="width: 100vw;">
+  <header >
+    <nav class="bg-white border border-light-subtle p-2 m-3" >
+        
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="logo">
+                     <div class="d-flex fw-medium fs-4 px-4 py-2 text-danger" >
+                     <div><image src="image/OIP (2).webp"  class="logoimage"></image></div><div >airbnb</div>
+                     </div>
+                </div>
+            
+               <div class="nomaxscreen">
+                 <div class="d-flex gap-4">
+                           <div class="d-flex align-items-center  gap-2">
+                              <div><img src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-ActivitySetup/original/b5a7ef95-2d3a-4aaa-b9d7-6f8c4a91aa2d.png" class="navimagesize"></div>
+                              <div><h6 class="pt-2">Homes</h6></div>
+                           </div>
+                           <div class="d-flex align-items-center gap-2 ">
+                              <div ><img src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-ActivitySetup/original/02579423-5d4b-4c71-bedb-0ea18cd293f8.png" class="navimagesize"></div>
+                              <div class="navpiccontentalign"><h6 class="pt-2">Experiences</h6></div>
+                              <div class="new"><span class=" newshape px-1 text-bg-secondary">NEW</span></div>
+                           </div>
+                           <div class="d-flex align-items-center gap-2 ">
+                              <div><img src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-ActivitySetup/original/1de966ec-197f-4b72-bbb1-cf4c91876dfa.png" class="navimagesize"></div>
+                              <div class="navpiccontentalign"><h6 class="pt-2">Services</h6></div>
+                              <div class="new"><span class="newshape px-1 text-bg-secondary">NEW</span></div>
+                           </div>
+
+                   </div>
+               </div>
+               <div class="search ">
+                     <div class="d-grid ">
+                     <button class="btn width  rounded-pill border border-dark-subtle " type="button"><i class="fa-solid fa-magnifying-glass" style="color: #0c0d0d;"></i>Start your search</button>
+                     </div>
+               </div>
+
+
+
+      <div class="navend">
+             <div class="last">
+             <div class="p-2  text-dark d-flex gap-2" >
+             <a href="" class="text-dark px-2 link-underline-light" ><div >Become a host</div></a>
+            <button class="rounded-circle border border-0"><i class="fa-solid fa-globe" style="color: #19191a;"></i></button>
+            <button class="menu-button rounded-circle border border-0" onclick="showContent()"><i class="fa-solid fa-bars " style="color: #0a0a0a;"></i></button>
+            </div>
+            </div>     
+      </div>
+
+</div>
+            <div class="minscreen">
+                 <div class="d-flex justify-content-between mt-3">
+                           <div class="d-flex align-items-center  gap-2">
+                              <div><img src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-ActivitySetup/original/b5a7ef95-2d3a-4aaa-b9d7-6f8c4a91aa2d.png" class="navimagesize"></div>
+                              <div><h6 class="pt-2">Homes</h6></div>
+                           </div>
+                           <div class="d-flex align-items-center gap-2 ">
+                              <div ><img src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-ActivitySetup/original/02579423-5d4b-4c71-bedb-0ea18cd293f8.png" class="navimagesize"></div>
+                              <div class="navpiccontentalign"><h6 class="pt-2">Experiences</h6></div>
+                              <div class="new"><span class=" newshape px-1 text-bg-secondary">NEW</span></div>
+                           </div>
+                           <div class="d-flex align-items-center gap-2 ">
+                              <div><img src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-ActivitySetup/original/1de966ec-197f-4b72-bbb1-cf4c91876dfa.png" class="navimagesize"></div>
+                              <div class="navpiccontentalign"><h6 class="pt-2">Services</h6></div>
+                              <div class="new"><span class="newshape px-1 text-bg-secondary">NEW</span></div>
+                           </div>
+
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                             <div class="search1">
+              <div class="d-flex flex-nowrap rounded-pill  shadow-lg border border-light-subtle  p-2 aligndiv ">
+             <a href="" class=" px-3 text-decoration-none  text-dark rounded-pill  alignsubdiv  "><div class="">Where    <br><div class="text-secondary"> Search destination</div></div></a> 
+               <div class="bar border border-dark-subtle"></div>
+             <a href="" class="px-3 text-decoration-none  text-dark rounded-pill  alignsubdiv "><div  class="">When <br><div class="text-secondary"> Add dates         </div></div></a>
+            <div class="bar border border-dark-subtle"></div>
+            <a href="" class="px-3 text-decoration-none text-dark rounded-pill  alignsubdiv ">
+                <div class="d-flex justify-content-between">
+                    <div>
+                     <div class="">Who      </div><div class="text-secondary">Add guests   </div>
+                   </div>
+                <div class="searchbutton "> <i class="fa-solid fa-magnifying-glass" style="color: #f3f2f3;"></i> </div>
+                </div>
+            </a>
+            </div></div></div>
+   
+          </div>
+    </nav>
+  </header>
+    <main>
+        <section>
+        <h1 class=" fs-4 ">Popular homes in Bengaluru</h1>
+        
+   <div class="div1  listing-scroll ">
+     <div class="container ">
+        <div >
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
+  </div>  
+
+          <div >
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
+  </div>  
+
+          <div >
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
+  </div>  
+
+          <div >
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
+  </div>  
+
+
+          <div >
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
+  </div>  
+
+
+          <div >
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
+  </div>  
+
+
+          <div >
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
+  </div>  
+
+
+          <div >
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
+  </div>  
+   
+     </div>
+   </div>
+        </section>
+        <h1 class=" fs-4 ">Popular homes in Bengaluru</h1>
+        
+   <div class="div1  listing-scroll ">
+     <div class="container ">
+        <div >
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
+  </div>  
+
+          <div >
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
+  </div>  
+
+          <div >
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
+  </div>  
+
+          <div >
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
+  </div>  
+
+
+          <div >
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
+  </div>  
+
+
+          <div >
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
+  </div>  
+
+
+          <div >
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
+  </div>  
+
+
+          <div >
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
+  </div>  
+   
+     </div>
+   </div>
+        </section>
+<footer >
+  <h3 class="ps-5 mb-4">Inspiration for future getaways</h3>
+  <div class="d-flex gap-5 ps-5  ">
+    <h6>Popular</h6>
+    <h6>Art&culture</h6>
+    <h6>Beach</h6>
+    <h6>Mountain</h6>
+    <h6>Outdoors</h6>
+    <h6>Things To do</h6>
+  </div>
+  <div class="d-flex justify-content-center p-3">
+      <div style="width: 80rem; height: 1px;" class="  border border-light-subtle"></div></div>
+
+  <div class="p-5 mb-5">
+    <div class="row">
+      <div class="col-lg-2 ">
+        San Diego <br><p6 class="text-body-tertiary">
+        Cottage rentals</p6>
+      </div>
+            <div class="col">
+   Memphis <br><h6 class="text-body-tertiary">
+   Monthly Rentals   </p6>   </div>
+            <div class="col">
+   Memphis <br><p6 class="text-body-tertiary">
+   Monthly Rentals     </p6> </div>
+
+            <div class="col">
+   Memphis <br><p6 class="text-body-tertiary">
+   Monthly Rentals      </p6></div>
+            <div class="col">
+   Memphis <br><p6 class="text-body-tertiary">
+   Monthly Rentals      </p6></div>
+            <div class="col">
+   Memphis <br><p6 class="text-body-tertiary">
+   Monthly Rentals      </p6></div>
+
+
+    </div><br>
+        <div class="row">
+      <div class="col-lg-2">
+        San Diego <br>
+        Cottage rentals
+      </div>
+            <div class="col">
+   Memphis <br>
+   Monthly Rentals      </div>
+            <div class="col">
+   Memphis <br>
+   Monthly Rentals      </div>
+
+            <div class="col">
+   Memphis <br>
+   Monthly Rentals      </div>
+            <div class="col">
+   Memphis <br>
+   Monthly Rentals      </div>
+            <div class="col">
+   Memphis <br>
+   Monthly Rentals      </div>
+
+
+    </div><br>
+    <div class="row">
+      <div class="col-lg-2">
+        San Diego <br>
+        Cottage rentals
+      </div>
+            <div class="col">
+   Memphis <br>
+   Monthly Rentals      </div>
+            <div class="col">
+   Memphis <br>
+   Monthly Rentals      </div>
+
+            <div class="col">
+   Memphis <br>
+   Monthly Rentals      </div>
+            <div class="col">
+   Memphis <br>
+   Monthly Rentals      </div>
+            <div class="col">
+   Memphis <br>
+   Monthly Rentals      </div>
+
+
+    </div>
+
+  </div>
+  <div class="p-5 mt-5" >
+    <div class="row">
+      <div class="col " >
+       <h5 style="color: #0a0a0a;"> Support</h5>
+      </div>
+            <div class="col">
+       <h5 style="color: #0a0a0a;"> Hosting</h5>
+      </div>
+            <div class="col">
+       <h5 style="color: #0a0a0a;"> Airbnb</h5>
+      </div>
+      <div class="row">
+        <div class="col py-2">
+          Help Center
+        </div>
+                <div class="col py-2">
+          Help Center
+        </div>
+
+                <div class="col py-2 " >
+          Help Center
+        </div>
+
+      </div>
+            <div class="row">
+        <div class="col py-2">
+          Help Center
+        </div>
+                <div class="col py-2">
+          Help Center
+        </div>
+
+                <div class="col py-2 " >
+          Help Center
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col py-2">
+          Help Center
+        </div>
+                <div class="col py-2">
+          Help Center
+        </div>
+
+                <div class="col py-2 " >
+          Help Center
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col py-2">
+          Help Center
+        </div>
+                <div class="col py-2">
+          Help Center
+        </div>
+
+                <div class="col py-2 " >
+          Help Center
+        </div>    
+      </div>
+
+  </div>
+ </div>
+    
+
+<div class="border border-light-subtle"><p> © 2025 Airbnb, Inc.·PrivacyTermsCompany details</p></div>
+</footer>
+
+
+    </main>
+</body>
+</html>

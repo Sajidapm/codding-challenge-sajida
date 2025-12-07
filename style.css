@@ -1,0 +1,122 @@
+.logoimage
+{
+width: 30px;
+height: 30px;
+}
+.navimagesize
+{
+    width: 3rem;
+    height: 3rem;
+}
+
+.width
+{
+    width: 90vw;
+}
+.navpiccontentalign
+{
+    width: 100px;
+}
+.new
+{
+    position: relative;
+    bottom: 20px;
+    right:  120px;
+}
+.newshape
+{
+        border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size:x-small;
+    font-weight: bold;
+
+}
+.search1
+{
+    width: 70%;
+}
+.alignsubdiv
+{
+    width: 100%;
+}
+.searchbutton
+{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color:red ;
+    align-content: center;
+    padding-left:1rem;
+}
+main{
+    background-color: rgb(252, 247, 247);
+}
+.div1
+{
+    display: flex;
+    
+    flex-wrap: nowrap;
+}
+   .listing-scroll {
+      
+    scroll-behavior: smooth;
+      padding-bottom: px;
+      overflow: auto;
+    }
+    .container
+    {
+              display: flex;
+            
+              flex-wrap: nowrap;
+
+    }
+    .scroll-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+ 
+
+   .imagesize {
+    width: 12rem;
+    height: 12rem;
+
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    margin: 2px;
+  }
+
+@media screen and (min-width:744px)  {
+    .search{
+        display: none;
+
+    }
+.minscreen
+{
+    display: none;
+}
+}
+@media screen and (max-width:743px) {
+    .nomaxscreen
+    {
+        display: none;
+    }
+    .logo
+    {
+        display: none;
+
+    }
+    .navend
+    {
+        display: none;
+    }
+    .search1
+    {
+        display: none;
+    }
+    
+}
+
+        
+    
+
