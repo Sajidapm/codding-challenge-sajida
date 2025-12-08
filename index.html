@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sajida</title>
+    <title>Codding challenge 1</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 
 </head>
 <body style="width: 100vw;">
-  <header >
-    <nav class="bg-white border border-light-subtle p-2 m-3" >
+  <header class=" header shadow bg-white   pb-5 border border-light-subtle">
+    <nav class="p-2" >
         
             <div class="d-flex justify-content-between align-items-center">
                 <div class="logo">
                      <div class="d-flex fw-medium fs-4 px-4 py-2 text-danger" >
-                     <div><image src="image/OIP (2).webp"  class="logoimage"></image></div><div >airbnb</div>
+                     <div><image src="image/logo.webp"  class="logoimage"></image></div><div >airbnb</div>
                      </div>
                 </div>
             
-               <div class="nomaxscreen">
+               <div class="nomaxscreen"><!--not display in large screen-->
                  <div class="d-flex gap-4">
                            <div class="d-flex align-items-center  gap-2">
                               <div><img src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-ActivitySetup/original/b5a7ef95-2d3a-4aaa-b9d7-6f8c4a91aa2d.png" class="navimagesize"></div>
@@ -39,27 +39,15 @@
 
                    </div>
                </div>
-               <div class="search ">
-                     <div class="d-grid ">
-                     <button class="btn width  rounded-pill border border-dark-subtle " type="button"><i class="fa-solid fa-magnifying-glass" style="color: #0c0d0d;"></i>Start your search</button>
+               
+               <div class="mobilescreen"><!--display in mobile-->
+                <div class="d-flex justify-content-center ps-4">
+                     <div class=" ">
+                     <button class=" shadow p-3 btn width  rounded-pill border border-dark-subtle " type="button"><i class="fa-solid fa-magnifying-glass" style="color: #0c0d0d;"></i>Start your search</button>
                      </div>
-               </div>
-
-
-
-      <div class="navend">
-             <div class="last">
-             <div class="p-2  text-dark d-flex gap-2" >
-             <a href="" class="text-dark px-2 link-underline-light" ><div >Become a host</div></a>
-            <button class="rounded-circle border border-0"><i class="fa-solid fa-globe" style="color: #19191a;"></i></button>
-            <button class="menu-button rounded-circle border border-0" onclick="showContent()"><i class="fa-solid fa-bars " style="color: #0a0a0a;"></i></button>
-            </div>
-            </div>     
-      </div>
-
-</div>
-            <div class="minscreen">
-                 <div class="d-flex justify-content-between mt-3">
+                </div>
+                          
+                 <div class="d-flex justify-content-between pt-3 ps-5 ms-5">
                            <div class="d-flex align-items-center  gap-2">
                               <div><img src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-ActivitySetup/original/b5a7ef95-2d3a-4aaa-b9d7-6f8c4a91aa2d.png" class="navimagesize"></div>
                               <div><h6 class="pt-2">Homes</h6></div>
@@ -75,8 +63,23 @@
                               <div class="new"><span class="newshape px-1 text-bg-secondary">NEW</span></div>
                            </div>
 
-                </div>
+              
+                  </div>
+
+               </div>
+
+
+      <div class="navend">
+             <div class="last">
+             <div class="p-2  text-dark d-flex gap-2" >
+             <a href="" class="text-dark px-2 link-underline-light" ><div >Become a host</div></a>
+            <button class="rounded-circle border border-0"><i class="fa-solid fa-globe" style="color: #19191a;"></i></button>
+            <button class="menu-button rounded-circle border border-0" onclick="showContent()"><i class="fa-solid fa-bars " style="color: #0a0a0a;"></i></button>
             </div>
+            </div>     
+      </div>
+
+</div>
             <div class="d-flex justify-content-center">
                              <div class="search1">
               <div class="d-flex flex-nowrap rounded-pill  shadow-lg border border-light-subtle  p-2 aligndiv ">
@@ -102,36 +105,36 @@
         <h1 class=" fs-4 ">Popular homes in Bengaluru</h1>
         
    <div class="div1  listing-scroll ">
-     <div class="container ">
+     <div class="colm ">
         <div >
-    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1457984074156973650/original/ee1d5dba-6867-4f10-89a2-aa31abd23a53.jpeg?im_w=960" class="imagesize"> </a>
     <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
   </div>  
 
           <div >
-    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <a href=""><img src="https://a0.muscache.com/im/pictures/miso/Hosting-1002025044604767134/original/534b1297-9ffc-4a11-bb6d-eca103fe5d43.jpeg?im_w=960" class="imagesize"> </a>
     <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
   </div>  
 
           <div >
-    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1443668862104636650/original/c469b258-2224-4074-8bb8-e5de1998d7bb.jpeg?im_w=960" class="imagesize"> </a>
     <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
   </div>  
 
           <div >
-    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
-    <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
-  </div>  
-
-
-          <div >
-    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1504423693632976824/original/d3009721-0f05-4468-aedd-89ac944758b2.jpeg?im_w=960" class="imagesize"> </a>
     <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
   </div>  
 
 
           <div >
     <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
+  </div>  
+
+
+          <div >
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1513898740472419487/original/e1372a9d-c127-4312-ad37-d2ff00fabf9b.jpeg?im_w=960" class="imagesize"> </a>
     <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
   </div>  
 
@@ -150,12 +153,18 @@
      </div>
    </div>
         </section>
-        <h1 class=" fs-4 ">Popular homes in Bengaluru</h1>
+        <section>
+        <h1 class=" fs-4 mt-5">Popular homes in Bengaluru</h1>
         
    <div class="div1  listing-scroll ">
-     <div class="container ">
+     <div class="colm  ">
         <div >
-    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1550670376242501488/original/2b1664c6-7e65-47b6-947a-a1c8750c4954.jpeg?im_w=960" class="imagesize"> </a>
+    <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
+  </div>  
+
+          <div >
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1504423693632976824/original/d3009721-0f05-4468-aedd-89ac944758b2.jpeg?im_w=960" class="imagesize"> </a>
     <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
   </div>  
 
@@ -165,24 +174,19 @@
   </div>  
 
           <div >
-    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
-    <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
-  </div>  
-
-          <div >
-    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1504423693632976824/original/d3009721-0f05-4468-aedd-89ac944758b2.jpeg?im_w=960" class="imagesize"> </a>
     <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
   </div>  
 
 
           <div >
-    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1513898740472419487/original/e1372a9d-c127-4312-ad37-d2ff00fabf9b.jpeg?im_w=960" class="imagesize"> </a>
     <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
   </div>  
 
 
           <div >
-    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1096365467309628265/original/aa2f1eed-2157-4932-8be8-ebe60a697732.jpeg?im_w=960" class="imagesize"> </a>
+    <a href=""><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-1550670376242501488/original/2b1664c6-7e65-47b6-947a-a1c8750c4954.jpeg?im_w=960" class="imagesize"> </a>
     <div class="ps-3 "> Flat in Bangaluru Urban<br>₹2469 for 2 nights.*4.89</div>
   </div>  
 
