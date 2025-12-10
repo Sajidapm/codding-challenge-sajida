@@ -1,7 +1,24 @@
+.navbar1
+{
+    .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  
+}
+body {
+  padding-top: 70px; /* navbar height */
+}
+
+}
 .logoimage
 {
 width: 30px;
 height: 30px;
+}
+.largescreen{
+    width: 40%;
 }
 .navimagesize
 {
@@ -9,21 +26,19 @@ height: 30px;
     height: 3rem;
 }
 
-.width
-{
-    width: 80vw;
-    
-}
-.navpiccontentalign
-{
-    width: 100px;
-}
 .new
 {
     position: relative;
     bottom: 20px;
-    right:  120px;
+    right:  80px;
 }
+.new1
+{
+    position: relative;
+    bottom: 10px;
+    right:  8px;
+}
+
 .newshape
 {
         border-top-left-radius: 8px;
@@ -33,13 +48,20 @@ height: 30px;
     font-weight: bold;
 
 }
-.search1
+.navend{
+    width: 15%;
+}
+.aligndiv
 {
     width: 70%;
+    
 }
+
 .alignsubdiv
 {
-    width: 100%;
+    width: 30%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .searchbutton
 {
@@ -63,18 +85,10 @@ main{
     gap: 20px;;
 }
    .listing-scroll {
-      
+
     scroll-behavior: smooth;
       padding-bottom: px;
       overflow: auto;
-    }
-    .colm
-    {
-              display: flex;
-              flex-wrap: nowrap;
-              
-              gap: 10px;
-
     }
     .scroll-wrapper::-webkit-scrollbar {
     display: none;
@@ -97,7 +111,11 @@ main{
     }}
 
 @media screen and (max-width:743px) {
-    .nomaxscreen
+    .largescreen
+    {
+        display: none;
+    }
+    .largescreen1
     {
         display: none;
     }
